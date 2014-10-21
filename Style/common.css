@@ -1,0 +1,22 @@
+﻿body
+{
+    font-size: 12px;
+}
+.guide
+{
+    margin: auto;
+    width: 80%;
+    border-bottom: 1px solid lightgray;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.guide h3
+{
+    padding: 0px;
+    margin: 0px;
+}
+.main
+{
+    margin: auto;
+    width: 80%;
+}

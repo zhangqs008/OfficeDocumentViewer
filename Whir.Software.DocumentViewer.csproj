@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{EE184688-2225-4CB1-A4CD-6743215E6869}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Whir.Software.DocumentViewer</RootNamespace>
+    <AssemblyName>Whir.Software.DocumentViewer</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ICSharpCode.SharpZipLib, Version=0.86.0.518, Culture=neutral, PublicKeyToken=1b03e6acf1164f73, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Reference\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.PowerPoint, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Word, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Office, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Default.aspx" />
+    <Content Include="Preview.aspx" />
+    <Content Include="reference\ICSharpCode.SharpZipLib.dll" />
+    <Content Include="Scripts\common.js" />
+    <Content Include="Scripts\jquery-1.4.1-vsdoc.js" />
+    <Content Include="Scripts\jquery-1.4.1.js" />
+    <Content Include="Scripts\jquery-1.4.1.min.js" />
+    <Content Include="Scripts\jquery-1.7.1.intellisense.js" />
+    <Content Include="Scripts\jquery-1.7.1.js" />
+    <Content Include="Scripts\jquery-1.7.1.min.js" />
+    <Content Include="style\common.css" />
+    <Content Include="style\images\16x16\accdb.gif" />
+    <Content Include="style\images\16x16\aspx.gif" />
+    <Content Include="style\images\16x16\chm.gif" />
+    <Content Include="style\images\16x16\cs.gif" />
+    <Content Include="style\images\16x16\css.gif" />
+    <Content Include="style\images\16x16\dll.gif" />
+    <Content Include="style\images\16x16\doc.gif" />
+    <Content Include="style\images\16x16\docx.gif" />
+    <Content Include="style\images\16x16\dps.gif" />
+    <Content Include="style\images\16x16\dpt.gif" />
+    <Content Include="style\images\16x16\et.gif" />
+    <Content Include="style\images\16x16\ett.gif" />
+    <Content Include="style\images\16x16\exe.gif" />
+    <Content Include="style\images\16x16\htm.gif" />
+    <Content Include="style\images\16x16\html.gif" />
+    <Content Include="style\images\16x16\jpg.gif" />
+    <Content Include="style\images\16x16\js.gif" />
+    <Content Include="style\images\16x16\mdb.gif" />
+    <Content Include="style\images\16x16\pdf.gif" />
+    <Content Include="style\images\16x16\ppt.gif" />
+    <Content Include="style\images\16x16\pptx.gif" />
+    <Content Include="style\images\16x16\rar.gif" />
+    <Content Include="style\images\16x16\swf.gif" />
+    <Content Include="style\images\16x16\txt.gif" />
+    <Content Include="style\images\16x16\unknow.gif" />
+    <Content Include="style\images\16x16\wps.gif" />
+    <Content Include="style\images\16x16\wpt.gif" />
+    <Content Include="style\images\16x16\xls.gif" />
+    <Content Include="style\images\16x16\xlsx.gif" />
+    <Content Include="style\images\16x16\xml.gif" />
+    <Content Include="style\images\16x16\zip.gif" />
+    <Content Include="style\images\32x32\accdb.gif" />
+    <Content Include="style\images\32x32\aspx.gif" />
+    <Content Include="style\images\32x32\chm.gif" />
+    <Content Include="style\images\32x32\cs.gif" />
+    <Content Include="style\images\32x32\css.gif" />
+    <Content Include="style\images\32x32\dll.gif" />
+    <Content Include="style\images\32x32\doc.gif" />
+    <Content Include="style\images\32x32\docx.gif" />
+    <Content Include="style\images\32x32\dps.gif" />
+    <Content Include="style\images\32x32\dpt.gif" />
+    <Content Include="style\images\32x32\et.gif" />
+    <Content Include="style\images\32x32\ett.gif" />
+    <Content Include="style\images\32x32\exe.gif" />
+    <Content Include="style\images\32x32\htm.gif" />
+    <Content Include="style\images\32x32\html.gif" />
+    <Content Include="style\images\32x32\jpg.gif" />
+    <Content Include="style\images\32x32\js.gif" />
+    <Content Include="style\images\32x32\mdb.gif" />
+    <Content Include="style\images\32x32\pdf.gif" />
+    <Content Include="style\images\32x32\ppt.gif" />
+    <Content Include="style\images\32x32\pptx.gif" />
+    <Content Include="style\images\32x32\rar.gif" />
+    <Content Include="style\images\32x32\swf.gif" />
+    <Content Include="style\images\32x32\txt.gif" />
+    <Content Include="style\images\32x32\unknow.gif" />
+    <Content Include="style\images\32x32\wps.gif" />
+    <Content Include="style\images\32x32\wpt.gif" />
+    <Content Include="style\images\32x32\xls.gif" />
+    <Content Include="style\images\32x32\xlsx.gif" />
+    <Content Include="style\images\32x32\xml.gif" />
+    <Content Include="style\images\32x32\zip.gif" />
+    <Content Include="style\images\arrow-7-right.png" />
+    <Content Include="style\images\arrow-8-down.png" />
+    <Content Include="style\images\arrow-8-up.png" />
+    <Content Include="style\images\briefcase.png" />
+    <Content Include="style\images\cancel.png" />
+    <Content Include="style\images\download.png" />
+    <Content Include="style\images\edit-document.png" />
+    <Content Include="style\images\full-screen.png" />
+    <Content Include="style\images\idea-alt.png" />
+    <Content Include="style\images\nopic.gif" />
+    <Content Include="style\images\preview.png" />
+    <Content Include="style\images\script.png" />
+    <Content Include="style\images\showEditTips.png" />
+    <Content Include="style\images\time.png" />
+    <Content Include="style\images\trash-empty.png" />
+    <Content Include="style\images\userclose1.gif" />
+    <Content Include="style\images\userclose2.gif" />
+    <Content Include="style\images\zoom.png" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Default.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="OfficeConvert.cs" />
+    <Compile Include="Preview.aspx.cs">
+      <DependentUpon>Preview.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Preview.aspx.designer.cs">
+      <DependentUpon>Preview.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>14351</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
